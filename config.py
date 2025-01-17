@@ -22,5 +22,5 @@ class Config:
     CHUNK_SIZE = 1024 * 1024 * 10  # 10 MB
     BOT_THUMB = f"{os.path.dirname(__file__)}/bot_thumb.jpg"
     MAX_CONCURRENT_TASKS = 75
-    MAX_TASK_DURATION_EXTRACT = 120 * 60  # 2 hours (in seconds)
-    MAX_TASK_DURATION_MERGE = 240 * 60  # 4 hours (in seconds)
+    MAX_TASK_DURATION_EXTRACT = 240 * 60  # 4 hours (in seconds)
+    MAX_TASK_DURATION_MERGE = 600 * 60  # 10 hours (in seconds)
